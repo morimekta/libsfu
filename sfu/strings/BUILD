@@ -10,7 +10,7 @@ cc_test(
     srcs = [ "cord_test.cc" ],
     deps = [
         ':cord',
-        '//third_party:gtest',
+        '//external:gtest',
     ],
     size = 'small',
 )
@@ -27,7 +27,7 @@ cc_test(
     srcs = [ "format_test.cc" ],
     deps = [
         ':format',
-        '//third_party:gtest',
+        '//external:gtest',
     ],
     size = 'small',
 )
@@ -47,7 +47,7 @@ cc_test(
     srcs = [ "strings_test.cc" ],
     deps = [
         ':strings',
-        '//third_party:gtest',
+        '//external:gtest',
     ],
     size = 'small',
 )

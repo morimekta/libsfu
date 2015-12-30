@@ -21,7 +21,7 @@ cc_test(
     srcs = [ "encoding_test.cc" ],
     deps = [
         ':encoding',
-        '//third_party:gtest',
+        '//external:gtest',
     ],
     size = 'small',
 )
@@ -48,8 +48,9 @@ cc_test(
     srcs = [ "numbers_test.cc" ],
     deps = [
         ':numbers',
-        '//third_party:gtest',
+        '//external:gtest',
     ],
+    copts = ["-Iexternal/gtest"],
     size = 'small',
 )
 
@@ -68,6 +69,7 @@ cc_library(
     srcs = [ "popen.cc" ],
     hdrs = [ "popen.h" ],
     visibility = [ "//visibility:public" ],
+    linkopts = ['-pthread'],
 )
 
 cc_test(
@@ -75,8 +77,9 @@ cc_test(
     srcs = [ "popen_test.cc" ],
     deps = [
         ':popen',
-        '//third_party:gtest',
+        '//external:gtest',
     ],
+    copts = ["-Iexternal/gtest"],
     size = 'small',
 )
 

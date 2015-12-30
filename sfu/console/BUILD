@@ -16,7 +16,7 @@ cc_test(
     deps = [
         ':argument_parser',
         '//sfu:numbers',
-        '//third_party:gtest',
+        '//external:gtest',
     ],
     size = 'small',
 )
@@ -39,7 +39,7 @@ cc_test(
     deps = [
         ':char',
         '//sfu:encoding',
-        '//third_party:gtest',
+        '//external:gtest',
     ],
     size = 'small',
 )
