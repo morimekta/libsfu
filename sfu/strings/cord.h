@@ -1,5 +1,5 @@
-#ifndef UTIL_STRINGS_CORD_H_
-#define UTIL_STRINGS_CORD_H_
+#ifndef SFU_STRINGS_CORD_H_
+#define SFU_STRINGS_CORD_H_
 
 #include <string>
 #include <utility>
@@ -91,4 +91,4 @@ namespace std {
 std::ostream& operator<<(std::ostream& out,
                          const sfu::strings::cord& sp);
 
-#endif // UTIL_STRINGS_CORD_H_
+#endif // SFU_STRINGS_CORD_H_

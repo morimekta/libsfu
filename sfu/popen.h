@@ -1,5 +1,5 @@
-#ifndef UTIL_POPEN_H_
-#define UTIL_POPEN_H_
+#ifndef SFU_POPEN_H_
+#define SFU_POPEN_H_
 
 #include <string>
 #include <vector>
@@ -44,4 +44,4 @@ class Popen {
 
 }  // namespace sfu
 
-#endif  // UTIL_POPEN_H_
+#endif  // SFU_POPEN_H_

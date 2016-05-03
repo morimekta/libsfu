@@ -1,5 +1,5 @@
-#ifndef UTIL_TIME_ZONEINFO_H_
-#define UTIL_TIME_ZONEINFO_H_
+#ifndef SFU_TIME_ZONEINFO_H_
+#define SFU_TIME_ZONEINFO_H_
 
 #include <string>
 #include <vector>
@@ -50,4 +50,4 @@ class Zoneinfo {
 };  // namespace sfu
 
 
-#endif  // UTIL_TIME_ZONEINFO_H_
+#endif  // SFU_TIME_ZONEINFO_H_

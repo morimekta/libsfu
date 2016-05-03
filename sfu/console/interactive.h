@@ -3,6 +3,7 @@
 
 #include <functional>
 #include <stdio.h>
+#include <string>
 #include <termios.h>
 
 #include "sfu/console/char.h"
@@ -29,7 +30,6 @@ class LineReader {
 
     void print_warning_(const std::string& warning);
 
-
     std::string message_;
     size_t message_length_;
 
@@ -42,9 +42,6 @@ class LineReader {
     std::function<bool(const Char& c, std::string* msg)> char_verifier_;
     std::function<bool(const std::string&, std::string* msg)>
       result_verifier_;
-
-    // tab_expander_
-    // tab_alternatives_
 };
 
 }  // namespace console

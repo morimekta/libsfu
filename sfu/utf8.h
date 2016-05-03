@@ -1,5 +1,5 @@
-#ifndef UTIL_UTF8_H_
-#define UTIL_UTF8_H_
+#ifndef SFU_UTF8_H_
+#define SFU_UTF8_H_
 
 #include <cstdint>
 #include <cstring>

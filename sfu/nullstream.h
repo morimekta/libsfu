@@ -1,5 +1,5 @@
-#ifndef UTIL_NULLSTREAM_H_
-#define UTIL_NULLSTREAM_H_
+#ifndef SFU_NULLSTREAM_H_
+#define SFU_NULLSTREAM_H_
 
 #include <iostream>
 

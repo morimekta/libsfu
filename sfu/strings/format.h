@@ -1,5 +1,5 @@
-#ifndef UTIL_STRINGS_FORMAT_H_
-#define UTIL_STRINGS_FORMAT_H_
+#ifndef SFU_STRINGS_FORMAT_H_
+#define SFU_STRINGS_FORMAT_H_
 
 #include <string>
 #include <cstdarg>
@@ -13,4 +13,4 @@ bool format_into(std::string* into, const char* format, ...);
 }  // namespace strings
 }  // namespace sfu
 
-#endif  // UTIL_STRINGS_FORMAT_H_
+#endif  // SFU_STRINGS_FORMAT_H_

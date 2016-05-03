@@ -56,7 +56,7 @@ bool accept_all_chars(const Char& c, std::string *msg) {
   }
 
   // Non-printable character.
-  *msg = "Non printable character.";
+  *msg = std::string("Non printable character: ") + sfu::CEscape(c.c_str());
   return false;
 }
 

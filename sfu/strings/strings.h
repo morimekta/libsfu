@@ -1,5 +1,5 @@
-#ifndef UTIL_STRINGS_H_
-#define UTIL_STRINGS_H_
+#ifndef SFU_STRINGS_H_
+#define SFU_STRINGS_H_
 
 #include <functional>
 #include <list>
@@ -159,4 +159,4 @@ size_t trim_whitespace(std::string* str);
 }  // namespace strings
 }  // namespace sfu
 
-#endif  // UTIL_STRINGS_H_
+#endif  // SFU_STRINGS_H_

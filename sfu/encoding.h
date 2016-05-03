@@ -1,5 +1,5 @@
-#ifndef UTIL_ENCODING_H_
-#define UTIL_ENCODING_H_
+#ifndef SFU_ENCODING_H_
+#define SFU_ENCODING_H_
 
 #include <string>
 
@@ -26,4 +26,4 @@ bool Base64Decode(const strings::cord& base64, bool web_safe, std::string *data)
 
 }  // namespace sfu
 
-#endif  // UTIL_ENCODING_H_
+#endif  // SFU_ENCODING_H_

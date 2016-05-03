@@ -1,5 +1,5 @@
-#ifndef UTIL_NUMBERS_H_
-#define UTIL_NUMBERS_H_
+#ifndef SFU_NUMBERS_H_
+#define SFU_NUMBERS_H_
 
 #include <cstdint>
 #include "sfu/strings/cord.h"
@@ -26,4 +26,4 @@ bool safe_str2ld(const strings::cord& str, long double* dbl);
 
 }  // namespace sfu
 
-#endif  // UTIL_NUMBERS_H_
+#endif  // SFU_NUMBERS_H_

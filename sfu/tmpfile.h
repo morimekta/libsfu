@@ -1,5 +1,5 @@
-#ifndef UTIL_TMPFILE_H_
-#define UTIL_TMPFILE_H_
+#ifndef SFU_TMPFILE_H_
+#define SFU_TMPFILE_H_
 
 #include <string>
 #include <vector>
@@ -26,4 +26,4 @@ class TmpFile {
 
 }  // namespace sfu
 
-#endif  // UTIL_TMPFILE_H_
+#endif  // SFU_TMPFILE_H_

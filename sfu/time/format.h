@@ -1,5 +1,5 @@
-#ifndef UTIL_TIME_FORMAT_H_
-#define UTIL_TIME_FORMAT_H_
+#ifndef SFU_TIME_FORMAT_H_
+#define SFU_TIME_FORMAT_H_
 
 #include <string>
 #include <cstdarg>

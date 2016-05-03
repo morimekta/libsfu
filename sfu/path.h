@@ -1,5 +1,5 @@
-#ifndef UTIL_PATH_H_
-#define UTIL_PATH_H_
+#ifndef SFU_PATH_H_
+#define SFU_PATH_H_
 
 #include <string>
 
@@ -44,4 +44,4 @@ const std::string RelativePath(const std::string& absolute_path,
 
 }  // namespace sfu
 
-#endif  // UTIL_PATH_H_
+#endif  // SFU_PATH_H_

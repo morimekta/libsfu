@@ -1,5 +1,5 @@
-#ifndef UTIL_TIME_DATETIME_H_
-#define UTIL_TIME_DATETIME_H_
+#ifndef SFU_TIME_DATETIME_H_
+#define SFU_TIME_DATETIME_H_
 
 #include <string>
 #include <memory>
@@ -61,4 +61,4 @@ class Datetime {
 };  // namespace sfu
 
 
-#endif  // UTIL_TIME_DATETIME_H_
+#endif  // SFU_TIME_DATETIME_H_

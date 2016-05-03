@@ -1,5 +1,5 @@
-#ifndef UTIL_TIME_TIME_H_
-#define UTIL_TIME_TIME_H_
+#ifndef SFU_TIME_TIME_H_
+#define SFU_TIME_TIME_H_
 
 namespace sfu {
 namespace time {
@@ -24,4 +24,4 @@ time_t now();
 };  // namespace time
 };  // namespace sfu
 
-#endif  // UTIL_TIME_TIME_H_
+#endif  // SFU_TIME_TIME_H_
