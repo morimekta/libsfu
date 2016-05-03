@@ -55,6 +55,28 @@ cc_test(
 )
 
 cc_library(
+    name = "indented_stream",
+    srcs = [ "indented_stream.cc" ],
+    hdrs = [ "indented_stream.h" ],
+    deps = [
+        "//sfu/console:char",
+    ],
+    visibility = [ "//visibility:public" ],
+)
+
+cc_test(
+    name = "indented_stream_test",
+    srcs = [ "indented_stream_test.cc" ],
+    deps = [
+        ':indented_stream',
+        '//external:gtest',
+    ],
+    copts = ["-Iexternal/gtest"],
+    size = 'small',
+)
+
+
+cc_library(
     name = "path",
     srcs = [ "path.cc" ],
     hdrs = [ "path.h" ],
